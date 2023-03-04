@@ -41,7 +41,7 @@ function getMenuItems() {
                     <div class="item-ingredients">${ingredients.join(', ')}</div>
                     <div class="item-price">$${price}</div>
                 </div>
-            <button class="add-item" id="add-item" data-add="${id}">+</button>
+            <button class="add-item" id="add-item" data-add="${id}">➕</button>
         </div>
         <hr />
         `
