@@ -51,6 +51,7 @@ header {
     margin-top: 2rem;
     /* outline: 1px solid red; */
     padding: 0 25px;
+    height: 100%;
 }
 
 .menu-items, .order-summary {
