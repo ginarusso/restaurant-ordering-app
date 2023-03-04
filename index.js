@@ -84,9 +84,7 @@ function getOrderSummary() {
                 <button class="remove-item" id="remove-item" data-remove="${id}">remove</button>
                 <div class="price" id="price">$${price}</div>
             </div>
-            `
-        })
-        
+            `    
         orderSummary = `
         <div class="order">Your Order</div>
             <div>${orderHtml}</div>
@@ -96,7 +94,8 @@ function getOrderSummary() {
                 <div class="price">$${totalOrderPrice}</div>
             </div>
             <button class="completeBtn" id="complete-order">Complete Order</button>
-    `
+        `
+        })
         } else if (orderArray.length === 0) {
         document.getElementById('order-container').classList.add('hidden')
         // console.log("clicked removed")
