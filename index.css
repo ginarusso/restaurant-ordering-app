@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Smythe', cursive;
     background-color: #ffffff;
+    height: 100%;
 } 
 
 .container {
