@@ -140,14 +140,14 @@ function completeOrder() {
 function showStatus(fullName) {
     const submitBtn = document.getElementById('submit')
     submitBtn.innerHTML = `
-        <img src="images/loading.svg" class="loading">
+        <div class="loading"><img src="images/spinner.gif"></div>
         `
     setTimeout(function () {
         document.getElementById("modal-container").style.display = 'none'
         document.getElementById('order-container').classList.add('success')
         document.getElementById('order-container').innerHTML =
             `<h4>Thanks ${fullName}!<br>Your order is on its way.</h4>`
-    }, 1500)
+    }, 3500)
 }
 
 function render() {
@@ -155,4 +155,3 @@ function render() {
 }
 
 render()
-        
