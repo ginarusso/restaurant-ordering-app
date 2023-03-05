@@ -140,7 +140,7 @@ function completeOrder() {
 function showStatus(fullName) {
     const submitBtn = document.getElementById('submit')
     submitBtn.innerHTML = `
-        <div class="loading"><img src="/images/spinner.gif"></div>
+        <div class="loading"><img src="images/burger.png"></div>
         `
 //     setTimeout(function () {
 //         document.getElementById("modal-container").style.display = 'none'
